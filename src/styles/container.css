@@ -1,3 +1,9 @@
 .container {
+    max-width: 1350px;
+    
+    margin: auto;
+
+    background: linear-gradient(to bottom, var(--color-bg), var(--color-bg-muted));
+    
     height: 100vh;
 }
