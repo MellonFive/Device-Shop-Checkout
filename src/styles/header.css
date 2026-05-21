@@ -2,7 +2,6 @@
     background: url('../resources/background-image.png') no-repeat;
     background-size: cover;
    
-    width: 100%;
     height: 15rem;
     
     display: flex;
@@ -11,12 +10,6 @@
 }
 
 .header > .title {
-    padding-top: 3rem;
-
-    text-align: center;
-
-    font-size: 2rem;
-
     font-weight: 600;
     
     color: var(--color-white);
@@ -25,9 +18,11 @@
 .header > .title > .itens-count {
     background-color: var(--color-text);
     
+    margin-left: .5rem;
+
     font-size: .9rem;
     
-    padding: .5rem;
+    padding: .4rem .8rem;
     
-    border-radius: .5rem;
+    border-radius: 1rem;
 }
