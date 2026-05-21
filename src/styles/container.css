@@ -6,4 +6,6 @@
     background: linear-gradient(to bottom, var(--color-bg), var(--color-bg-muted));
     
     height: 100vh;
+
+    position: relative;
 }
