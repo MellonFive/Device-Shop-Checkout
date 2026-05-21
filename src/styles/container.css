@@ -3,7 +3,7 @@
     
     margin: auto;
 
-    background: linear-gradient(to bottom, var(--color-bg), var(--color-bg-muted));
+    background: #FFF; /* ARRUMAR E COLOCAR A VARIÁVEL DA COR DE FUNDO BRANCA */
     
     height: 100vh;
 
