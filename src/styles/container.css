@@ -3,7 +3,7 @@
     
     margin: auto;
 
-    background: #FFF; /* ARRUMAR E COLOCAR A VARIÁVEL DA COR DE FUNDO BRANCA */
+    background: var(--color-white);
     
     height: 100vh;
 
