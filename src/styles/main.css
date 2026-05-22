@@ -1,5 +1,5 @@
 main {
-    background-color: var(--color-border);
+    background-color: var( --color-bg-muted);
     
     position: absolute;
     top: 50%;
