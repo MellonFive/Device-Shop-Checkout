@@ -1,54 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="src/resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
 
-  <link rel="icon" href="src/resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+    <title>Device Shop Checkout | devChallenges.io</title>
 
-  <title>Device Shop Checkout | devChallenges.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/variables.css" />
+    <link rel="stylesheet" href="src/styles/body.css" />
+    <link rel="stylesheet" href="src/styles/container.css" />
+    <link rel="stylesheet" href="src/styles/header.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <link rel="stylesheet" href="src/styles/box-information.css" />
+  </head>
 
-  <link rel="stylesheet" href="src/styles/reset.css" />
-  <link rel="stylesheet" href="src/styles/variables.css" />
-  <link rel="stylesheet" href="src/styles/body.css" />
-  <link rel="stylesheet" href="src/styles/container.css" />
-  <link rel="stylesheet" href="src/styles/header.css" />
-  <link rel="stylesheet" href="src/styles/main.css" />
-  <link rel="stylesheet" href="src/styles/box-information.css" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="header">
-      <h1 class="title">Checkout<span class="itens-count">3 ITEMS</span></h1>
-    </div>
-    <main>
-      <div class="box-information">
-        <section class="itens-and-prices">
-          <div class="itens">
-            <div class="item">
-              <div class="product">
-                <img src="src/resources/Gold.png" alt="iPhone 12 Pro" />
-                <div class="product-info">
-                  <h2 class="subtitle">iPhone 12 Pro</h2>
-                  <p class="emphasis">Golden</p>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Checkout<span class="itens-count">3 ITEMS</span></h1>
+      </div>
+      <main>
+        <div class="box-information">
+          <section class="itens-and-prices">
+            <div class="itens">
+              <div class="item">
+                <div class="product">
+                  <img src="src/resources/Gold.png" alt="iPhone 12 Pro" />
+                  <div class="product-info">
+                    <h2 class="subtitle">iPhone 12 Pro</h2>
+                    <p class="emphasis">Golden</p>
+                  </div>
                 </div>
-                <p class="quantity">x 1</p>
+                <div class="price">
+                  <p class="dolar">$999.00</p>
+                  <img src="src/resources/close-icon.svg" alt="Remove item" />
+                </div>
               </div>
-              <div class="price">
-                <p class="dolar">$999.00</p>
-                <img src="src/resources/close-icon.svg" alt="Remove item">
-              </div>
-            </div>
 
-            <!-- Apple Watch
+              <!-- Apple Watch
 
             Blue
 
@@ -59,8 +63,8 @@
             Green
 
             $1199.00 -->
-          </div>
-          <!-- Enter coupon code
+            </div>
+            <!-- Enter coupon code
 
           Apply Coupon
 
@@ -75,12 +79,11 @@
           Total
 
           $3220.28 -->
-        </section>
-        
-        <section class="contact-information">
-        </section>
+          </section>
 
-        <!-- Contact Information
+          <section class="contact-information"></section>
+
+          <!-- Contact Information
 
         First & Last name
 
@@ -99,8 +102,8 @@
         00270
 
         Continue -->
-      </div>
-    </main>
-</body>
-
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
