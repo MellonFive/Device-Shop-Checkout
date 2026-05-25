@@ -2,12 +2,12 @@
     background: url('../resources/background-image.png') no-repeat;
     background-size: cover;
    
-    height: 20rem;
+    height: 25rem;
     
     display: flex;
     justify-content: center;
 
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 .header > .title {
