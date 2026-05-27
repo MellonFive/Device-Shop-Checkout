@@ -15,7 +15,7 @@
 .itens-and-prices > .itens > .item > .product > img {
     background-color: var(--color-white);
     
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 3.5rem;
 
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
