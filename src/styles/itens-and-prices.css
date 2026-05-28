@@ -18,14 +18,24 @@
     gap: 1rem;
 }
 
-.itens-and-prices > .itens > .item > .product > img {
+.itens-and-prices > .itens > .item > .product > .img-iphone,
+.itens-and-prices > .itens > .item > .product > .img-apple-watch,
+.itens-and-prices > .itens > .item > .product > .img-imac {
     background-color: var(--color-white);
     
+    width: 13rem;
+    height: 150px;
+    object-fit: contain;
+
     padding: 1.5rem 3.5rem;
 
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
 }
+/* 
+.itens-and-prices > .itens > .item > .product > .img-apple-watch {
+    width: 12rem;
+} */
 
 .itens-and-prices > .itens > .item > .product > .product-info {
     display: flex;
