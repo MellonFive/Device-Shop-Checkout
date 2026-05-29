@@ -39,100 +39,84 @@ Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia aind
     padding: 3rem;
 }
 
-.itens-and-prices > .itens {
+.itens-and-prices .itens {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.itens-and-prices > .itens > .item {
+.itens-and-prices .item {
     display: flex;
     justify-content: space-between;
 }
 
-.itens-and-prices > .itens > .item > .product {
+.itens-and-prices .product {
     display: flex;
     gap: 1rem;
 }
 
-.itens-and-prices > .itens > .item > .product > .img-iphone,
-.itens-and-prices > .itens > .item > .product > .img-apple-watch,
-.itens-and-prices > .itens > .item > .product > .img-imac {
+.itens-and-prices .img-iphone,
+.itens-and-prices .img-apple-watch,
+.itens-and-prices .img-imac {
     background-color: var(--color-white);
-    
     height: 120px;
     object-fit: contain;
-
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
+    width: 12rem;
 }
 
-.itens-and-prices > .itens > .item > .product > .img-iphone {
-    width: 12rem;
-
+.itens-and-prices .img-iphone {
     padding: 1rem 2rem;
 }
 
-.itens-and-prices > .itens > .item > .product > .img-apple-watch {
-    width: 12rem;
-
+.itens-and-prices .img-apple-watch {
     padding: 1rem 4rem;
 }
 
-.itens-and-prices > .itens > .item > .product > .img-imac {
-    width: 12rem;
-
+.itens-and-prices .img-imac {
     padding: 0 1rem;
 }
 
-.itens-and-prices > .itens > .item > .product > .product-info {
+.itens-and-prices .product-info {
     display: flex;
     flex-direction: column;
 }
 
-.itens-and-prices > .itens > .item > .product > .product-info > .subtitle {
+.itens-and-prices .product-info .subtitle {
     font-size: 1.8rem;
-    
     color: var(--color-text);
 }
 
-.itens-and-prices > .itens > .item > .product > .product-info > .emphasis {
-    margin-top: .7rem;
-
+.itens-and-prices .product-info .emphasis {
+    margin-top: 0.7rem;
     font-size: 1.6rem;
     font-weight: 600;
-    
     color: var(--color-text-muted);
 }
 
-.itens-and-prices > .itens > .item > .product > .product-info:after {
+.itens-and-prices .product-info::after {
     content: "x 1";
-    width: 100%;
-    height: 100%;
-
     font-size: 1.8rem;
-
     color: var(--color-border);
-
     margin-top: 4rem;
 }
 
-.itens-and-prices > .itens > .item > .price {
+.itens-and-prices .price {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.itens-and-prices > .itens > .item > .price > .dolar {
+.itens-and-prices .dolar {
     font-size: 1.8rem;
     font-weight: 600;
-    
     color: var(--color-text);
 }
 
-.itens-and-prices > .itens > .item > .price > img {
+.itens-and-prices .price img {
     width: 3rem;
     height: 3rem;
-
     margin-left: 4rem;
-} 
+}
+ 
