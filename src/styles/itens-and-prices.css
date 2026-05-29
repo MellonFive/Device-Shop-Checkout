@@ -23,19 +23,30 @@
 .itens-and-prices > .itens > .item > .product > .img-imac {
     background-color: var(--color-white);
     
-    width: 13rem;
-    height: 150px;
+    height: 120px;
     object-fit: contain;
-
-    padding: 1.5rem 3.5rem;
 
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
 }
-/* 
+
+.itens-and-prices > .itens > .item > .product > .img-iphone {
+    width: 12rem;
+
+    padding: 1rem 2rem;
+}
+
 .itens-and-prices > .itens > .item > .product > .img-apple-watch {
     width: 12rem;
-} */
+
+    padding: 1rem 4rem;
+}
+
+.itens-and-prices > .itens > .item > .product > .img-imac {
+    width: 12rem;
+
+    padding: 0 1rem;
+}
 
 .itens-and-prices > .itens > .item > .product > .product-info {
     display: flex;
