@@ -59,11 +59,14 @@ Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia aind
 .itens-and-prices .img-apple-watch,
 .itens-and-prices .img-imac {
     background-color: var(--color-white);
+   
     height: 120px;
+    width: 12rem;
+   
     object-fit: contain;
+   
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
-    width: 12rem;
 }
 
 .itens-and-prices .img-iphone {
@@ -85,20 +88,26 @@ Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia aind
 
 .itens-and-prices .product-info .subtitle {
     font-size: 1.8rem;
+
     color: var(--color-text);
 }
 
 .itens-and-prices .product-info .emphasis {
     margin-top: 0.7rem;
+    
     font-size: 1.6rem;
     font-weight: 600;
+    
     color: var(--color-text-muted);
 }
 
 .itens-and-prices .product-info::after {
     content: "x 1";
+    
     font-size: 1.8rem;
+    
     color: var(--color-border);
+    
     margin-top: 4rem;
 }
 
@@ -111,12 +120,14 @@ Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia aind
 .itens-and-prices .dolar {
     font-size: 1.8rem;
     font-weight: 600;
+    
     color: var(--color-text);
 }
 
 .itens-and-prices .price img {
     width: 3rem;
     height: 3rem;
+    
     margin-left: 4rem;
 }
  
