@@ -1,0 +1,32 @@
+.coupon-form {
+    display: flex;
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.coupon-form input {
+    flex: 1;
+    padding: 1rem 2rem;
+    
+    border: 1px solid var(--color-border);
+    
+    border-radius: 5px;
+    
+    font-size: 1.8rem;
+}
+
+.coupon-form button {
+    padding: 1.5rem 2rem;
+
+    background-color: var(--color-text);
+
+    color: var(--color-white);
+        
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 1.8rem;
+    
+    cursor: pointer;
+}
