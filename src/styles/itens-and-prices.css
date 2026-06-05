@@ -1,5 +1,6 @@
 /* 
-De acordo com o feedback, fiz uma refatoração no CSS para deixar os seletores mais enxutos e reduzir a repetição de propriedades comuns.(GitHub Copilot sugeriu isso, mas eu também concordo que os seletores estavam um pouco longos e poderiam ser simplificados.)
+De acordo com o feedback, fiz uma refatoração no CSS para deixar os seletores mais enxutos e reduzir a repetição de propriedades comuns.
+(GitHub Copilot sugeriu isso, mas eu também concordo que os seletores estavam um pouco longos e poderiam ser simplificados.)
 ✅ Refatoração aplicada em itens-and-prices.css
 
 O arquivo agora está:
