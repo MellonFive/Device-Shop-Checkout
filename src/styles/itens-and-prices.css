@@ -37,10 +37,6 @@ Então, a refatoração que fiz foi para deixar o CSS mais limpo e ainda conserv
 
 Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia ainda mais clara. */
 
-.itens-and-prices {
-    padding: 3rem;
-}
-
 .itens-and-prices .itens {
     display: flex;
     flex-direction: column;
