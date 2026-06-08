@@ -11,7 +11,7 @@
     
     border: 1px solid var(--color-border);
     
-    border-radius: 5px;
+    border-radius: .7rem;
     
     font-size: 1.8rem;
 }
@@ -29,4 +29,26 @@
     font-size: 1.8rem;
     
     cursor: pointer;
+}
+
+.contact-information .result-calc {
+   display: flex;
+   justify-content: space-between;
+
+   margin-top: 3rem;
+
+   font-size: 1.8rem;
+}
+
+.contact-information .label, 
+.contact-information .price {
+    margin-top: 1.5rem;
+
+    color: var(--color-text-muted);
+    font-weight: 600;
+}
+
+.contact-information .label.first, 
+.contact-information .price.first {
+    margin-top: 0;
 }
