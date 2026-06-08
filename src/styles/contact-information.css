@@ -35,16 +35,22 @@
    display: flex;
    justify-content: space-between;
 
-   margin-top: 3rem;
+   margin-top: 2rem;
 
    font-size: 1.8rem;
 }
 
+.contact-information .price {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .contact-information .label, 
 .contact-information .price {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 
     color: var(--color-text-muted);
+
     font-weight: 600;
 }
 
@@ -52,3 +58,9 @@
 .contact-information .price.first {
     margin-top: 0;
 }
+
+.contact-information .label.total-price,
+.contact-information .price.total-price {
+    color: var(--color-text);
+}
+
