@@ -1,12 +1,13 @@
 .coupon-form {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .coupon-form input {
     flex: 1;
+    
     padding: 1rem 2rem;
     
     border: 1px solid var(--color-border);
@@ -31,7 +32,7 @@
     cursor: pointer;
 }
 
-.contact-information .result-calc {
+.coupon-and-price-information .result-calc {
    display: flex;
    justify-content: space-between;
 
@@ -40,13 +41,13 @@
    font-size: 1.8rem;
 }
 
-.contact-information .price {
+.coupon-and-price-information .price {
     display: flex;
     justify-content: flex-end;
 }
 
-.contact-information .label, 
-.contact-information .price {
+.coupon-and-price-information .label, 
+.coupon-and-price-information .price {
     margin-top: 1rem;
 
     color: var(--color-text-muted);
@@ -54,13 +55,13 @@
     font-weight: 600;
 }
 
-.contact-information .label.first, 
-.contact-information .price.first {
+.coupon-and-price-information .label.first, 
+.coupon-and-price-information .price.first {
     margin-top: 0;
 }
 
-.contact-information .label.total-price,
-.contact-information .price.total-price {
+.coupon-and-price-information .label.total-price,
+.coupon-and-price-information .price.total-price {
     color: var(--color-text);
 }
 
