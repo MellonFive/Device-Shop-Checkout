@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="src/styles/box-information.css" />
     <link rel="stylesheet" href="src/styles/itens-and-prices.css" />
     <link rel="stylesheet" href="src/styles/coupon-and-price-information.css" />
+    <link rel="stylesheet" href="src/styles/contact-information.css" />
   </head>
 
   <body>
@@ -94,21 +95,6 @@
                 </div>
               </div>
             </div>
-            <!-- Enter coupon code
-
-          Apply Coupon
-
-          Sub total
-
-          $2597.00
-
-          Tax
-
-          $623.28
-
-          Total
-
-          $3220.28 -->
           </section>
 
           <hr />
@@ -133,26 +119,34 @@
               </div>
             </div>
           </section>
+        </div>
 
-          <!-- Contact Information
+        <div class="contact-information">
+          <h2 class="subtitle">Contact Information</h2>
+          <form class="contact-form">
+            <label for="name">First & Last name</label>
+            <input type="text" id="name" placeholder="Enter first & last name" />
 
-        First & Last name
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter email address"
+            />
 
-        Enter first & last name
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="finland">Finland</option>
+              <option value="sweden">Sweden</option>
+              <option value="norway">Norway</option>
+              <option value="denmark">Denmark</option>
+            </select>
 
-        Email Address
+            <label for="postal-code">Postal Code</label>
+            <input type="text" id="postal-code" placeholder="00270" />
 
-        Enter email address
-
-        Country
-
-        Finland
-
-        Postal Code
-
-        00270
-
-        Continue -->
+            <button class="continue">Continue</button>
+          </form>
         </div>
       </main>
     </div>
