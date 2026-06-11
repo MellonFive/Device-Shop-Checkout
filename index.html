@@ -126,26 +126,32 @@
           <div class="contact-information-form">
             <form class="contact-form">
               <label for="name">First & Last name</label>
-              <input type="text" id="name" placeholder="Enter first & last name"
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter first & last name"
               />
 
               <label for="email">Email Address</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter email address"
+              <input type="email" id="email" placeholder="Enter email address"
               />
 
-              <label for="country">Country</label>
-              <select id="country">
-                <option value="finland">Finland</option>
-                <option value="sweden">Sweden</option>
-                <option value="norway">Norway</option>
-                <option value="denmark">Denmark</option>
-              </select>
+              <div class="country_and_postal-code">
+                <div class="wrapper-country">
+                  <label for="country">Country</label>
+                  <select id="country">
+                    <option value="finland">Finland</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="norway">Norway</option>
+                    <option value="denmark">Denmark</option>
+                  </select>
+                </div>
 
-              <label for="postal-code">Postal Code</label>
-              <input type="text" id="postal-code" placeholder="00270" />
+                <div class="wrapper-postal-code">
+                  <label for="postal-code">Postal Code</label>
+                </div>
+                <input type="text" id="postal-code" placeholder="00270" />
+              </div>
 
               <button class="continue">Continue</button>
             </form>

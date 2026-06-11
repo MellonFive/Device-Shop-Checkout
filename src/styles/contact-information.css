@@ -23,7 +23,7 @@
 .contact-information .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.5rem;
 
   margin-top: 2rem;
 }
@@ -35,19 +35,34 @@
   color: var(--color-text-muted);
 }
 
-.contact-information input {
+.contact-information input[placeholder] {
   padding: 1.5rem 2rem;
 
   border-radius: 0.5rem;
-  border: 1px solid var(--color-border);
-  background-color: var(--color-text-muted);
-}
+  border: 1px solid var(--color-text-muted);
 
-.contact-information [placeholder] {
-  color: #FFF;
+  background-color: var(--color-bg);
 
-  border-radius: 0.5rem;
+  color: var(--color-white);
 
   font-size: 1.7rem;
+  
   font-weight: 700;
+}
+
+.contact-information .country_and_postal-code {
+  display: flex;
+
+  margin-top: 1.5rem;
+}
+
+.contact-information .wrapper-country {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-information select {
+  background-color: red;
+
+  width: 100%;
 }
