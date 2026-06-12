@@ -1,11 +1,11 @@
-.coupon-form {
+.coupon-and-price-information .coupon-form {
     display: flex;
     gap: 1rem;
 
     margin-top: 2rem;
 }
 
-.coupon-form input {
+.coupon-and-price-information input {
     flex: 1;
     
     padding: 1rem 2rem;
@@ -17,7 +17,7 @@
     font-size: 1.8rem;
 }
 
-.coupon-form button {
+.coupon-and-price-information button {
     padding: 1.5rem 2rem;
 
     background-color: var(--color-text);
