@@ -43,8 +43,6 @@
 
   background-color: var(--color-bg);
 
-  color: var(--color-white);
-
   font-size: 1.7rem;
   
   font-weight: 700;
@@ -52,17 +50,37 @@
 
 .contact-information .country_and_postal-code {
   display: flex;
-
   margin-top: 1.5rem;
+  gap: 1.5rem;
 }
 
 .contact-information .wrapper-country {
+  flex: 1;
+}
+
+.contact-information select {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+
+  width: 100%;
+
+  border-radius: .5rem;
+  border: 1px solid var(--color-text-muted);
+
+  background-color: var(--color-bg);
+
+  color: var(--color-text-muted);
+
+  font-size: 1.7rem;
+  
+  font-weight: 700;
+}
+
+.contact-information .wrapper-postal-code {
   display: flex;
   flex-direction: column;
 }
 
-.contact-information select {
-  background-color: red;
-
-  width: 100%;
+.contact-information #postal-code {
+  margin-top: 1.5rem;
 }
