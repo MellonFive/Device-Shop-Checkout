@@ -14,7 +14,7 @@
 }
 
 .contact-information .subtitle {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
 
   color: var(--color-text);
@@ -23,13 +23,13 @@
 .contact-information .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.5rem;
 
   margin-top: 2rem;
 }
 
 .contact-information label {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 
   color: var(--color-text-muted);
@@ -38,7 +38,7 @@
 .contact-information input[placeholder] {
   padding: 1.5rem 2rem;
 
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 1px solid var(--color-text-muted);
 
   background-color: var(--color-bg);
@@ -50,7 +50,6 @@
 
 .contact-information .country_and_postal-code {
   display: flex;
-  margin-top: 1.5rem;
   gap: 1.5rem;
 }
 
@@ -64,7 +63,7 @@
 
   width: 100%;
 
-  border-radius: .5rem;
+  border-radius: 1rem;
   border: 1px solid var(--color-text-muted);
 
   background-color: var(--color-bg);
