@@ -32,6 +32,10 @@
     cursor: pointer;
 }
 
+.coupon-and-price-information button:active {
+    background-color: var(--color-text-muted);
+}
+
 .coupon-and-price-information .result-calc {
    display: flex;
    justify-content: space-between;
