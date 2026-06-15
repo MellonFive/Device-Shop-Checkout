@@ -23,9 +23,9 @@
 .contact-information .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 3rem;
 
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .contact-information label {
@@ -36,7 +36,7 @@
 }
 
 .contact-information input[placeholder] {
-  padding: 1.5rem 2rem;
+  padding: 2rem;
 
   border-radius: 1rem;
   border: 1px solid var(--color-text-muted);
@@ -58,7 +58,7 @@
 }
 
 .contact-information select {
-  padding: 1.5rem;
+  padding: 2rem;
   margin-top: 1.5rem;
 
   width: 100%;
@@ -82,4 +82,27 @@
 
 .contact-information #postal-code {
   margin-top: 1.5rem;
+}
+
+.contact-information button {
+  padding: 2rem;
+
+  width: 100%;
+
+  border-radius: 1rem;
+  border: none;
+
+  background-color: var(--color-text);
+
+  color: var(--color-white);
+
+  font-size: 1.8rem;
+  
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.contact-information button:active {
+  background-color: var(--color-text-muted);  
 }
