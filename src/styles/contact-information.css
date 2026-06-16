@@ -15,7 +15,7 @@
 
 .contact-information .subtitle {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 
   color: var(--color-text);
 }
@@ -30,7 +30,7 @@
 
 .contact-information label {
   font-size: 1.7rem;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 
   color: var(--color-text-muted);
 }
@@ -45,7 +45,20 @@
 
   font-size: 1.7rem;
   
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
+  
+  transition: var(--transition);
+}
+
+.contact-information input[placeholder]:hover {
+  border-color: var(--color-text);
+  background-color: #F9FAFB;
+}
+
+.contact-information input[placeholder]:focus {
+  outline: none;
+  border-color: var(--color-text);
+  box-shadow: 0 0 0 3px rgba(29, 29, 31, 0.1);
 }
 
 .contact-information .country_and_postal-code {
@@ -72,7 +85,21 @@
 
   font-size: 1.7rem;
   
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
+  
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.contact-information select:hover {
+  border-color: var(--color-text);
+  background-color: #F9FAFB;
+}
+
+.contact-information select:focus {
+  outline: none;
+  border-color: var(--color-text);
+  box-shadow: 0 0 0 3px rgba(29, 29, 31, 0.1);
 }
 
 .contact-information .wrapper-postal-code {
@@ -98,11 +125,22 @@
 
   font-size: 1.8rem;
   
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 
   cursor: pointer;
+  transition: var(--transition-bg);
+}
+
+.contact-information button:hover {
+  background-color: var(--color-text-muted);
+}
+
+.contact-information button:focus {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
 }
 
 .contact-information button:active {
-  background-color: var(--color-text-muted);  
+  background-color: var(--color-text-muted);
+  transform: scale(0.98);
 }
