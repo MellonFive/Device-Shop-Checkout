@@ -31,6 +31,14 @@
    
     border-radius: 1.5rem;
     border: 2px solid var(--color-bg-muted);
+    transition: var(--transition);
+}
+
+.itens-and-prices .img-iphone:hover,
+.itens-and-prices .img-apple-watch:hover,
+.itens-and-prices .img-imac:hover {
+    border-color: var(--color-border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .itens-and-prices .img-iphone {
@@ -60,7 +68,7 @@
     margin-top: 0.7rem;
     
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-semi-bold);
     
     color: var(--color-text-muted);
 }
@@ -69,6 +77,7 @@
     content: "x 1";
     
     font-size: 1.8rem;
+    font-weight: var(--font-weight-semi-bold);
     
     color: var(--color-border);
     
@@ -83,7 +92,7 @@
 
 .itens-and-prices .dolar {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-semi-bold);
     
     color: var(--color-text);
 }
@@ -93,5 +102,18 @@
     height: 3rem;
     
     margin-left: 4rem;
+    
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.itens-and-prices .price img:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.itens-and-prices .price img:focus {
+    outline: 2px solid var(--color-text);
+    outline-offset: 2px;
 }
  
