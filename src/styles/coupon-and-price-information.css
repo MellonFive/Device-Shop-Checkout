@@ -15,7 +15,19 @@
     border-radius: 1rem;
     
     font-size: 1.7rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
+    
+    transition: var(--transition);
+}
+
+.coupon-and-price-information input:hover {
+    border-color: var(--color-text-muted);
+}
+
+.coupon-and-price-information input:focus {
+    outline: none;
+    border-color: var(--color-text);
+    box-shadow: 0 0 0 3px rgba(29, 29, 31, 0.1);
 }
 
 .coupon-and-price-information button {
@@ -29,13 +41,24 @@
     border-radius: 1rem;
     
     font-size: 1.7rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     
     cursor: pointer;
+    transition: var(--transition-bg);
+}
+
+.coupon-and-price-information button:hover {
+    background-color: var(--color-text-muted);
+}
+
+.coupon-and-price-information button:focus {
+    outline: 2px solid var(--color-text);
+    outline-offset: 2px;
 }
 
 .coupon-and-price-information button:active {
     background-color: var(--color-text-muted);
+    transform: scale(0.98);
 }
 
 .coupon-and-price-information .result-calc {
@@ -58,7 +81,7 @@
 
     color: var(--color-text-muted);
 
-    font-weight: 600;
+    font-weight: var(--font-weight-semi-bold);
 }
 
 .coupon-and-price-information .label.first, 
