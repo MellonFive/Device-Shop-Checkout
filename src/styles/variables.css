@@ -5,4 +5,11 @@
     --color-bg: #F3F4F6;
     --color-bg-muted: #E5E7EB;
     --color-white: #FFFFFF;
+    
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    
+    --transition: all 0.3s ease;
+    --transition-bg: background-color 0.3s ease;
 }
