@@ -1,0 +1,232 @@
+/* Responsivo para tablets e mobile */
+
+/* Mobile - até 768px */
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+
+  main {
+    position: absolute;
+    left: 0;
+
+    transform: none;
+    
+    width: 100%;
+    
+    flex-direction: column;
+    
+    padding: 0;
+}
+
+.box-information {
+    width: 100%;
+    
+    border-radius: 0;
+    
+    padding: 2rem;
+}
+
+.contact-information {
+    width: 100%;
+    
+    border-radius: 0;
+    
+    padding: 2rem;
+  }
+
+  .header {
+    padding-top: 4rem;
+  }
+
+  .header > .title {
+    font-size: 3rem;
+  }
+
+  .header > .title > .itens-count {
+    font-size: 1.5rem;
+    
+    /* padding: 0.3rem 0.6rem; */
+  }
+
+  .contact-information .contact-form {
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile Small - até 480px */
+@media (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+
+  main {
+    position: static;
+    transform: none;
+    
+    width: 100%;
+    
+    flex-direction: column;
+    
+    padding: 0;
+  }
+
+  .box-information {
+    width: 100%;
+    
+    border-radius: 0;
+    
+    padding: 1.5rem;
+    
+    background-color: var(--color-white);
+  }
+
+  .contact-information {
+    width: 100%;
+    
+    border-radius: 0;
+    
+    padding: 1.5rem;
+  }
+
+  .header {
+    height: 12rem;
+  }
+
+  .header > .title {
+    font-size: 2.5rem;
+  }
+
+  .header > .title > .itens-count {   
+    font-size: 1.3rem;
+    
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* Itens */
+  .itens-and-prices .itens {
+    gap: 1.5rem;
+  }
+
+  .itens-and-prices .item {
+    /* flex-direction: column; */
+    gap: 1rem;
+  }
+
+  .itens-and-prices .product {
+    gap: 0.8rem;
+  }
+
+  .itens-and-prices .img-iphone,
+  .itens-and-prices .img-apple-watch,
+  .itens-and-prices .img-imac {
+    height: 100px;
+    width: 10rem;
+    
+    padding: 0.8rem;
+  }
+
+  .itens-and-prices .img-apple-watch {
+    padding: 0.8rem 2rem;
+  }
+
+  .itens-and-prices .product-info .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .itens-and-prices .product-info .emphasis {
+    font-size: 1.2rem;
+    
+    margin-top: 0.5rem;
+  }
+
+  /* Preços */
+  .itens-and-prices .dolar {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .itens-and-prices .price img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Cupom e preços */
+  .coupon-and-price-information .coupon-form {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .coupon-and-price-information input {
+    width: 100%;
+  }
+
+  .coupon-and-price-information button {
+    width: 100%;
+    
+    padding: 1.5rem;
+  }
+
+  .coupon-and-price-information .result-calc {
+    /* flex-direction: column; */
+    gap: 1rem;
+  }
+
+  .coupon-and-price-information .names,
+  .coupon-and-price-information .prices {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .coupon-and-price-information .label,
+  .coupon-and-price-information .price {
+    font-size: 1.4rem;
+    
+    margin-top: 0;
+  }
+
+  /* Contato */
+  .contact-information .contact-form {
+    gap: 2rem;
+    
+    margin-top: 1rem;
+  }
+
+  .contact-information label {
+    font-size: 1.4rem;
+  }
+
+  .contact-information input[placeholder],
+  .contact-information select {
+    padding: 1.5rem;
+    
+    font-size: 1.4rem;
+  }
+
+  .contact-information .country_and_postal-code {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-information .wrapper-postal-code {
+    gap: 0;
+  }
+
+  .contact-information button {
+    padding: 1.5rem;
+    
+    font-size: 1.6rem;
+  }
+
+  .contact-information .subtitle {
+    font-size: 1.6rem;
+  }
+
+  hr {
+    margin: 2rem 0;
+  }
+}
