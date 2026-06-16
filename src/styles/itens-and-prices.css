@@ -1,42 +1,3 @@
-/* 
-De acordo com o feedback, fiz uma refatoração no CSS para deixar os seletores mais enxutos e reduzir a repetição de propriedades comuns.
-(GitHub Copilot sugeriu isso, mas eu também concordo que os seletores estavam um pouco longos e poderiam ser simplificados.)
-✅ Refatoração aplicada em itens-and-prices.css
-
-O arquivo agora está:
-- com seletores mais enxutos
-- menos repetição de propriedades comuns
-- mais fácil de manter */
-
-/* Sobre o uso do `>`:
-- garantir que o estilo só vale para o filho imediato
-- evitar que ele afete elementos mais profundos
-- manter a regra mais explícita e controlada
-
-## Quando é útil
-
-Use `>` se a estrutura do HTML for estável e você quiser restringir o alcance do estilo. Exemplo bom:
-
-- `.card > .header` — só aplica a `.header` que é filho direto de `.card`
-
-## Quando não vale a pena
-
-No seu caso, os seletores estavam muito longos e não traziam ganho real porque:
-
-- já havia classes específicas como `.product`, `.price`
-- o HTML já é único o suficiente
-- o `>` estava apenas aumentando o tamanho do CSS
-
-Então, a refatoração que fiz foi para deixar o CSS mais limpo e ainda conservar o comportamento.
-
-## Conclusão
-
-- `>` é bom quando ajuda a prevenir “vazamentos”
-- mas não precisa exagerar com cadeias enormes de filhos diretos
-- classes bem nomeadas e seletores mais curtos costumam ser mais fáceis de manter
-
-Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia ainda mais clara. */
-
 .itens-and-prices .itens {
     display: flex;
     flex-direction: column;
@@ -46,6 +7,11 @@ Se quiser, posso revisar o HTML junto com o CSS para deixar essa hierarquia aind
 .itens-and-prices .item {
     display: flex;
     justify-content: space-between;
+    transition: var(--transition);
+}
+
+.itens-and-prices .item:hover {
+    opacity: 0.95;
 }
 
 .itens-and-prices .product {
