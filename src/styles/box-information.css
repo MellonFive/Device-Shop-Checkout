@@ -1,5 +1,5 @@
 .box-information {
-    background-color: var(--color-bg);
+    background-color: var(--color-border);
 
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
