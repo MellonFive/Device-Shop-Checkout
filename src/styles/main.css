@@ -1,12 +1,15 @@
 main {   
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -45%);
+    top: 30%;
+    left: 2.5%;
+
+    transform: none;
 
     width: 95%;
     
     color: var(--color-white);
 
     display: flex;
+    
+    transition: var(--transition);
 }
