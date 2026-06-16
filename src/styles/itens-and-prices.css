@@ -60,6 +60,7 @@
 
 .itens-and-prices .product-info .subtitle {
     font-size: 1.8rem;
+    font-weight: var(--font-weight-bold);
 
     color: var(--color-text);
 }
