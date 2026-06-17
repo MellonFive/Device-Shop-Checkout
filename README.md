@@ -6,7 +6,7 @@ Um projeto de checkout para e-commerce desenvolvido com foco em responsividade, 
 
 ## 📸 Preview
 
-<img src="/github/desktop-preview.gif" alt="Preview da Landing Page" width="100%" autoplay>
+<img src="/github/desktop-preview.gif" alt="Preview da Landing Page" width="100%">
 
 <img src="/github/mobile-preview.gif" alt="Preview da Landing Page Mobile" width="100%">
 
