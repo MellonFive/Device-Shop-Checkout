@@ -12,7 +12,7 @@
 
 .header > .title {
     font-size: 3rem;
-    font-weight: var(--font-weight-semi-bold);
+    font-weight: var(--font-weight-bold);
     
     color: var(--color-white);
 }
@@ -20,11 +20,11 @@
 .header > .title > .itens-count {
     background-color: var(--color-text);
     
-    margin-left: .5rem;
+    margin-left: 1.5rem;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     
-    padding: .4rem .8rem;
+    padding: .6rem 1rem;
     
     border-radius: 1rem;
 }
