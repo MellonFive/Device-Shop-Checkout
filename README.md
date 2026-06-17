@@ -15,7 +15,6 @@ Um projeto de checkout para e-commerce desenvolvido com foco em responsividade, 
 ## 🚀 Funcionalidades
 
 * 📱 Layout totalmente responsivo
-* 🛍️ Exibição de produtos no carrinho
 * 📋 Formulário de contato e entrega
 * 🎨 Interface moderna e intuitiva
 
