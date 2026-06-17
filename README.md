@@ -67,4 +67,4 @@ Desenvolvido por **Felipe Mellão**.
 
 ---
 
-⭐ Se gostou do projeto, deixe uma estrela no repositório!
+## ⭐ Se gostou do projeto, deixe uma estrela no repositório!
