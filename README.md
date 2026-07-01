@@ -31,8 +31,7 @@ O objetivo principal foi colocar em prática conceitos de HTML, CSS e JavaScript
 ## 🛠️ Tecnologias utilizadas
 
 * HTML5
-* CSS3
-* JavaScript (ES6+)
+* CSS3 (Responsividade)
 * Git
 * GitHub
 
