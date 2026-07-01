@@ -1,6 +1,6 @@
 # 🛒 Device Shop Checkout
 
-Um projeto de checkout para e-commerce desenvolvido com foco em responsividade, experiência do usuário e boas práticas de Front-End.
+Uma página de checkout para uma loja virtual de dispositivos eletrônicos, desenvolvida com foco na prática de desenvolvimento Front-End, organização de código e criação de interfaces modernas e responsivas.
 
 🔗 **Deploy:** https://device-shop-checkout-ten.vercel.app/
 
@@ -10,61 +10,79 @@ Um projeto de checkout para e-commerce desenvolvido com foco em responsividade, 
 
 <img src="/github/mobile-preview.gif" alt="Preview da Landing Page Mobile" width="100%">
 
----
+## 📖 Sobre o projeto
 
-## 🚀 Funcionalidades
+Este projeto simula a etapa de checkout de um e-commerce, permitindo visualizar os produtos selecionados e as informações necessárias para finalizar uma compra.
 
-* 📱 Layout totalmente responsivo
-* 📋 Formulário de contato e entrega
-* 🎨 Interface moderna e intuitiva
+O objetivo principal foi colocar em prática conceitos de HTML, CSS e JavaScript, desenvolvendo uma interface organizada, intuitiva e agradável.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ✨ Funcionalidades
+
+* Exibição dos produtos do carrinho
+* Resumo da compra
+* Cálculo do valor total
+* Interface responsiva
+* Layout moderno e organizado
+
+---
+
+## 🛠️ Tecnologias utilizadas
 
 * HTML5
-* CSS3 (Flexbox)
+* CSS3
+* JavaScript (ES6+)
+* Git
+* GitHub
 
 ---
 
-## ⚡ Como Executar Localmente
+## 🚀 Como executar
 
-Clone o repositório:
+1. Clone este repositório:
 
 ```bash
 git clone https://github.com/MellonFive/Device-Shop-Checkout.git
 ```
 
-Entre na pasta do projeto:
-
-```bash
-cd Device-Shop-Checkout
-```
-
-Abra o arquivo `index.html` no navegador ou utilize a extensão **Live Server** do VS Code.
+2. Abra o arquivo `index.html` no navegador.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 📚 O que aprendi
 
-Este projeto foi desenvolvido para praticar:
+Durante o desenvolvimento deste projeto, pratiquei:
 
-* Estruturação semântica com HTML5;
-* Estilização avançada com CSS3;
-* Desenvolvimento de interfaces responsivas;
+* Organização de arquivos e pastas
+* Estruturação de páginas HTML
+* Estilização com CSS
+* Manipulação do DOM com JavaScript
+* Boas práticas de versionamento utilizando Git e GitHub
+
+---
+
+## 🔮 Melhorias futuras
+
+* Adicionar sistema de cupons de desconto
+* Validação dos campos do formulário
+* Persistência do carrinho utilizando Local Storage
+* Integração com uma API
+* Melhorar acessibilidade
+* Criar testes automatizados
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas.
+
+Caso tenha alguma sugestão ou encontre algum problema, fique à vontade para abrir uma Issue ou enviar um Pull Request.
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Felipe Mellão**.
+Desenvolvido por Felipe Mellão como parte dos estudos em Desenvolvimento Full Stack.
 
-## 🤝 Contato
-
-📧 Gmail: felipe.mellao08@gmail.com  
-🐙 GitHub: https://github.com/MellonFive  
-💼 LinkedIn: https://www.linkedin.com/in/felipecastellimellao/
-
----
-
-## ⭐ Se gostou do projeto, deixe uma estrela no repositório!
+GitHub: https://github.com/MellonFive
